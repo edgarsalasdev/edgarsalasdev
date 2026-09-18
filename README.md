@@ -1,52 +1,73 @@
+<div align="center">
+
 # Edgar J. Salas Suárez
+### Backend Software Engineer • Cloud Architecture • AI-Assisted Tooling
+**[Pragma S.A.](https://www.pragma.co/)**
 
-**Backend Software Engineer** en **Pragma S.A.**, especializado en el ecosistema **JVM (Java 17/21 & Spring Boot 3)** y arquitecturas distribuidas cloud-native sobre **AWS** para el sector financiero.
+[![Java](https://img.shields.io/badge/Java-17%20%2F%2021-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud_Architecture-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Python](https://img.shields.io/badge/Python-MCP_Tooling-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Linux](https://img.shields.io/badge/Linux-POSIX_CLI-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
 
-Pionero en **Ingeniería Asistida por IA (Agentic Workflows & MCP)** y desarrollo de **herramientas internas (Developer Tooling / CLI)** orientadas a elevar la productividad, confiabilidad operativa y resiliencia de los equipos de ingeniería.
+<br/>
 
----
+> Backend Engineer especializado en el ecosistema **JVM** y arquitecturas cloud-native sobre **AWS** para el sector financiero. Enfocado en resiliencia transaccional, estabilidad operativa (Soporte N2 / N3 crítico) y construcción de tooling asistido por IA (**MCP & CLI**).
 
-### 🏛️ Enfoque Técnico & Producción
-
-- **Core JVM & Microservicios:** Java 17/21, Spring Boot 3 (Data, Web, Security, WebFlux), JPA/Hibernate. Modernización de servicios legacy hacia arquitecturas limpias y reactivas.
-- **Sistemas Distribuidos & Resiliencia:** Implementación de patrones en producción: **Cache-Aside con DynamoDB TTL** (reducción de 35% de latencia en consultas agregadas), **EDA (Event-Driven Architecture) con AWS SQS**, **CQRS** y políticas de *Retry con Exponential Backoff*.
-- **Cloud & Observabilidad AWS:** AWS Lambda, Step Functions, DynamoDB, SQS, CloudWatch, EKS/Docker. Soporte transaccional L3, ingeniería inversa y análisis de causa raíz (RCA) en entornos bancarios de alta disponibilidad.
-- **AI-Augmented Engineering:** Diseño y desarrollo de servidores **MCP (Model Context Protocol)** in-house en Python con control de acceso *read-only* y pool de conexiones para auditoría segura de bases de datos, integrando modelos de IA en flujos de diagnóstico operativo.
-- **Developer Tooling & Automatización:** Creación de utilidades CLI cross-platform en **Bash POSIX** para sincronización optimizada de datos y automatización de flujos de desarrollo local.
-
----
-
-### 💼 Experiencia & Proyectos en Pragma
-
-- **BTG Pactual (Banca de Inversión):**
-  - Soporte L3 avanzado e ingeniería inversa en arquitecturas híbridas Serverless / Microservicios.
-  - Optimización de latencia y costos en APIs financieras aplicando estrategias de caché distribuida en DynamoDB con TTL.
-  - Implementación de tooling seguro con MCP para diagnóstico y resolución acelerada de incidentes en producción.
-
-- **Protección S.A. (Fondos de Pensiones):**
-  - Orquestación asíncrona de eventos transaccionales con AWS SQS y CQRS, reduciendo tiempos de procesamiento manual en un 60%.
-  - Modernización de servicios legacy desde Java 8 hacia Java 21 / Spring WebFlux con suite de pruebas unitarias en JUnit 5 y Mockito.
-
-- **Iniciativas Internas & InnerSource:**
-  - Capacitaciones técnicas internas sobre trabajo colaborativo avanzado con Git y flujos de ramificación.
-  - Contribución en herramientas y fórmulas de CLI corporativas (`pragma-ai-cli-formula`).
+</div>
 
 ---
 
-### 🛠️ Stack & Ecosistema Tecnológico
+### ⚡ Métricas & Hitos en Producción
 
-| Área | Tecnologías & Herramientas |
-| :--- | :--- |
-| **Backend Core** | Java 8/17/21, Spring Boot 3, Spring WebFlux, Python (FastAPI, Serverless), SQL (PostgreSQL, MySQL) |
-| **Cloud & Infra** | AWS (Lambda, Step Functions, DynamoDB, SQS, S3, CloudWatch), Docker, Linux (Fedora / Debian) |
-| **Patrones & Arquitectura** | Hexagonal Architecture, Clean Architecture, EDA, CQRS, Cache-Aside, Circuit Breaker, TDD |
-| **AI & Tooling** | Model Context Protocol (MCP), Agentic Workflows, Bash POSIX CLI tooling, Git / Trunk-Based |
-| **Testing & Calidad** | JUnit 5, Mockito, SonarQube, Postman, OpenAPI / Swagger |
+| Impacto | Solución & Patrón Arquitectónico | Contexto | Ecosistema |
+| :---: | :--- | :--- | :--- |
+| **📉 -35% Latencia** | Patrón **Cache-Aside** con TTL en DynamoDB para búsqueda financiera unificada y reducción de costos en APIs de terceros. | **BTG Pactual** *(Banca de Inversión)* | `DynamoDB` `Spring Boot` `AWS` |
+| **⚡ -60% Carga Operativa** | Orquestación asíncrona de eventos transaccionales con **AWS SQS + CQRS** para validación automática. | **Protección S.A.** *(Pensiones)* | `AWS SQS` `CQRS` `Java` |
+| **⏱️ 20 min ➔ ~2 min** | Tooling CLI cross-platform en **Bash POSIX** (`sync-db`) con dump atómico y filtrado inteligente de snapshots. | **Developer Tooling** | `Bash POSIX` `MySQL` `Linux` |
+| **🔒 Diagnóstico Seguro** | Servidor **MCP custom en Python** con connection pool, *read-only enforcement* y auditoría JSONL para consulta segura de BDs. | **Soporte Operativo** | `Python` `FastAPI` `MCP` |
+| **🛡️ Modernización & Resiliencia** | Migración de microservicios de **Java 8 a 21 / WebFlux** incorporando *Retry con Exponential Backoff* y pruebas unitarias robustas. | **Core Transaccional** | `Java 21` `WebFlux` `JUnit 5` |
 
 ---
 
-### 📬 Conexión Profesional
+### 🎯 Pilares Técnicos
 
-- 🏢 **Email Corporativo:** [edgar.salas@pragma.com.co](mailto:edgar.salas@pragma.com.co)
-- 💼 **LinkedIn:** [linkedin.com/in/ejsalas](https://www.linkedin.com/in/ejsalas/)
-- 🌐 **GitHub Personal:** [github.com/ejsalasdev](https://github.com/ejsalasdev)
+```
+┌──────────────────────────────────────┐  ┌──────────────────────────────────────┐
+│          CORE BACKEND & JVM          │  │       OPERACIÓN & ESTABILIDAD        │
+├──────────────────────────────────────┤  ├──────────────────────────────────────┤
+│ • Java 17 & 21 | Spring Boot 3       │  │ • Soporte N2 e intervención N3       │
+│ • WebFlux, Hibernate/JPA, SQL        │  │ • Análisis de causa raíz (RCA)       │
+│ • Hexagonal & Clean Architecture     │  │ • CloudWatch, Step Functions, Lambdas│
+│ • Patrones: Cache-Aside, EDA, CQRS   │  │ • Hotfixes & scripts de ajuste DFU   │
+└──────────────────────────────────────┘  └──────────────────────────────────────┘
+┌──────────────────────────────────────┐  ┌──────────────────────────────────────┐
+│        INGENIERÍA ASISTIDA POR IA    │  │       CULTURA & INNER-SOURCE         │
+├──────────────────────────────────────┤  ├──────────────────────────────────────┤
+│ • Servidores MCP (Model Context)     │  │ • Capacitaciones internas (Git Pro)  │
+│ • Integración segura de LLMs con DBs │  │ • CLI formulas (pragma-ai-cli)       │
+│ • Flujos y agentes de automatización │  │ • Buenas prácticas, SOLID & KISS     │
+└──────────────────────────────────────┘  └──────────────────────────────────────┘
+```
+
+---
+
+### 🛠️ Ecosistema Tecnológico
+
+- **Lenguajes & Backend:** `Java 17/21` `Spring Boot 3` `Spring WebFlux` `Python` `Bash POSIX` `SQL (PostgreSQL / MySQL)`
+- **Cloud AWS & Infra:** `Lambda` `Step Functions` `DynamoDB` `SQS/SNS` `EKS` `CloudWatch` `Docker`
+- **Arquitectura & Resiliencia:** `Clean Architecture` `EDA` `CQRS` `Cache-Aside` `Exponential Backoff` `TDD`
+- **Testing & Calidad:** `JUnit 5` `Mockito` `SonarQube` `OpenAPI / Swagger` `Postman`
+
+---
+
+### 📬 Conexión & Redes
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email_Corporativo-edgar.salas%40pragma.com.co-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:edgar.salas@pragma.com.co)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ejsalas-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ejsalas/)
+[![GitHub](https://img.shields.io/badge/GitHub_Personal-ejsalasdev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ejsalasdev)
+
+</div>
