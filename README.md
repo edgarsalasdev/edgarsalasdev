@@ -13,7 +13,7 @@
 
 <br/>
 
-> Backend Engineer especializado en el ecosistema **JVM** y arquitecturas cloud-native sobre **AWS** para el sector financiero. Enfocado en resiliencia transaccional, estabilidad operativa (Soporte N2 / N3 crítico) y construcción de tooling asistido por IA (**MCP & CLI**).
+> Backend Engineer especializado en el ecosistema **JVM** y arquitecturas cloud-native sobre **AWS** para el sector financiero. Enfocado en resiliencia transaccional, estabilidad operativa (Soporte N2 con intervención N3 en eventos críticos) y construcción de tooling asistido por IA (**MCP & CLI**).
 
 </div>
 
@@ -33,23 +33,12 @@
 
 ### 🎯 Pilares Técnicos
 
-```
-┌──────────────────────────────────────┐  ┌──────────────────────────────────────┐
-│          CORE BACKEND & JVM          │  │       OPERACIÓN & ESTABILIDAD        │
-├──────────────────────────────────────┤  ├──────────────────────────────────────┤
-│ • Java 17 & 21 | Spring Boot 3       │  │ • Soporte N2 e intervención N3       │
-│ • WebFlux, Hibernate/JPA, SQL        │  │ • Análisis de causa raíz (RCA)       │
-│ • Hexagonal & Clean Architecture     │  │ • CloudWatch, Step Functions, Lambdas│
-│ • Patrones: Cache-Aside, EDA, CQRS   │  │ • Hotfixes & scripts de ajuste DFU   │
-└──────────────────────────────────────┘  └──────────────────────────────────────┘
-┌──────────────────────────────────────┐  ┌──────────────────────────────────────┐
-│        INGENIERÍA ASISTIDA POR IA    │  │       CULTURA & INNER-SOURCE         │
-├──────────────────────────────────────┤  ├──────────────────────────────────────┤
-│ • Servidores MCP (Model Context)     │  │ • Capacitaciones internas (Git Pro)  │
-│ • Integración segura de LLMs con DBs │  │ • CLI formulas (pragma-ai-cli)       │
-│ • Flujos y agentes de automatización │  │ • Buenas prácticas, SOLID & KISS     │
-└──────────────────────────────────────┘  └──────────────────────────────────────┘
-```
+| Área | Foco & Prácticas en Producción |
+| :--- | :--- |
+| ☕ **Core Backend & JVM** | **Java 17/21** & **Spring Boot 3** (WebFlux, Data, Security). Diseño bajo **Hexagonal & Clean Architecture**. Patrones de resiliencia (**Cache-Aside**, **EDA con SQS**, **CQRS**). |
+| 🛡️ **Operación & Estabilidad** | **Soporte N2** con intervención **N3** en requerimientos críticos para banca de inversión (**BTG Pactual**). Análisis de causa raíz (**RCA**), observabilidad en CloudWatch, Step Functions y hotfixes. |
+| 🤖 **Ingeniería Asistida por IA** | Construcción de servidores **MCP (Model Context Protocol)** in-house en Python con pool de conexiones y *read-only enforcement* para diagnóstico seguro en bases de datos. |
+| 🚀 **Developer Tooling & InnerSource** | Herramientas CLI cross-platform en **Bash POSIX** (`sync-db`), fórmulas corporativas (`pragma-ai-cli-formula`) y capacitaciones técnicas internas sobre Git colaborativo. |
 
 ---
 
